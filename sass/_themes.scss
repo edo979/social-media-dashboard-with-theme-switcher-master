@@ -1,7 +1,12 @@
 .light {
-  &.main-container {
+  background-color: $White;
+
+  .main-container {
     color: $Very-Dark-Blue-400;
-    background-color: $White;
+
+    &::before {
+      background-color: $Very-Pale-Blue;
+    }
   }
 
   .text-neutral,

@@ -1,4 +1,4 @@
 const togglerBtn = document.getElementById('toggler-ball'),
-  mainEl = document.querySelector('.main-container')
+  bodyEl = document.querySelector('body')
 
-togglerBtn.addEventListener('click', (e) => mainEl.classList.toggle('light'))
+togglerBtn.addEventListener('click', (e) => bodyEl.classList.toggle('light'))
