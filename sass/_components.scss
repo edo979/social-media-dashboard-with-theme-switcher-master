@@ -14,8 +14,12 @@
     width: 18px;
     border-radius: 50%;
 
-    background-color: $Dark-Desaturated-Blue;
+    background-color: $Very-Dark-Blue-500;
     cursor: pointer;
+
+    &:hover {
+      background-color: $Dark-Desaturated-Blue-300;
+    }
   }
 }
 
@@ -25,6 +29,11 @@
   padding: 30px;
 
   background-color: $Dark-Desaturated-Blue;
+
+  &:hover {
+    background-color: $Dark-Desaturated-Blue-300;
+    cursor: pointer;
+  }
 }
 
 .colored-card {

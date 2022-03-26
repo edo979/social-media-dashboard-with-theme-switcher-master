@@ -15,12 +15,23 @@
 
     &-ball {
       background-color: $White;
+      left: auto;
+      right: 3px;
+    }
+
+    &:hover {
+      background-color: transparent;
+      background-image: $Toggle-lg;
     }
   }
 
   .colored-card,
   .flex-card {
     background-color: $Light-Grayish-Blue;
+
+    &:hover {
+      background-color: $Light-Grayish-Blue-500;
+    }
   }
 
   hr {

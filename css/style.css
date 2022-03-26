@@ -199,8 +199,11 @@ hr {
   height: 18px;
   width: 18px;
   border-radius: 50%;
-  background-color: #252a41;
+  background-color: #1f212e;
   cursor: pointer;
+}
+.toggler-ball:hover {
+  background-color: #333b5b;
 }
 
 .colored-card,
@@ -208,6 +211,11 @@ hr {
   border-radius: 5px;
   padding: 30px;
   background-color: #252a41;
+}
+.colored-card:hover,
+.flex-card:hover {
+  background-color: #333b5b;
+  cursor: pointer;
 }
 
 .colored-card {
@@ -267,10 +275,20 @@ hr {
 }
 .light .toggler-ball {
   background-color: white;
+  left: auto;
+  right: 3px;
+}
+.light .toggler:hover {
+  background-color: transparent;
+  background-image: linear-gradient(to right, #378fe6, #3eda82);
 }
 .light .colored-card,
 .light .flex-card {
   background-color: #f0f2fa;
+}
+.light .colored-card:hover,
+.light .flex-card:hover {
+  background-color: #dadff1;
 }
 .light hr {
   border-top: 1px solid #aeb3cb;
