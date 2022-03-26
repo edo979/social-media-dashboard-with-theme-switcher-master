@@ -2,4 +2,18 @@ body {
   background-color: $Very-Dark-Blue-400;
 }
 
+.main-container {
+  padding: 25px;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @import 'components';

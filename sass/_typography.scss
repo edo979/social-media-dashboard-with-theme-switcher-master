@@ -6,4 +6,47 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
+  color: $White;
+}
+
+p {
+  line-height: 1;
+}
+
+.fs-200 {
+  font-size: 0.825rem;
+}
+.fs-300 {
+  font-size: 0.9rem;
+}
+.fs-400 {
+  font-size: 1rem;
+}
+.fs-600 {
+  font-size: 1.5rem;
+}
+.fs-700,
+.big-text-600 {
+  font-size: 4rem;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+.fw-700,
+.big-text-600 {
+  font-weight: 700;
+}
+
+.text-neutral {
+  color: $Desaturated-Blue;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.line-h-0 {
+  line-height: 0;
 }
