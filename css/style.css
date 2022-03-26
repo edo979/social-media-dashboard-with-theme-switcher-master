@@ -229,4 +229,27 @@ hr {
   background-color: #198ff5;
 }
 
+.light.main-container {
+  color: #1e202a;
+  background-color: white;
+}
+.light .text-neutral,
+.light .text-normal {
+  color: #63687e;
+}
+.light .toggler {
+  background-image: none;
+  background-color: #aeb3cb;
+}
+.light .toggler-ball {
+  background-color: white;
+}
+.light .colored-card,
+.light .flex-card {
+  background-color: #f0f2fa;
+}
+.light hr {
+  border-top: 1px solid #aeb3cb;
+}
+
 /*# sourceMappingURL=style.css.map */

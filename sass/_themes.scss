@@ -1,0 +1,29 @@
+.light {
+  &.main-container {
+    color: $Very-Dark-Blue-400;
+    background-color: $White;
+  }
+
+  .text-neutral,
+  .text-normal {
+    color: $Dark-Grayish-Blue;
+  }
+
+  .toggler {
+    background-image: none;
+    background-color: $Toggle;
+
+    &-ball {
+      background-color: $White;
+    }
+  }
+
+  .colored-card,
+  .flex-card {
+    background-color: $Light-Grayish-Blue;
+  }
+
+  hr {
+    border-top: 1px solid $Toggle;
+  }
+}
