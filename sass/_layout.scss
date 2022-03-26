@@ -65,6 +65,7 @@ hr {
 @include mq($break-point-md) {
   .main-container {
     width: min(700px, 96vw);
+    padding-top: 40px;
     margin-inline: auto;
   }
   .social,

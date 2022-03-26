@@ -314,6 +314,7 @@ hr {
 @media (min-width: 500px) {
   .main-container {
     width: min(700px, 96vw);
+    padding-top: 40px;
     margin-inline: auto;
   }
 
