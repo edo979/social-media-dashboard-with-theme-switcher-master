@@ -48,3 +48,56 @@ hr {
 
 @import 'components';
 @import 'themes';
+
+@include mq($break-point-md) {
+  .main-container {
+    width: min(700px, 96vw);
+    margin-inline: auto;
+  }
+  .social,
+  .overview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@include mq($break-point-lg) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
+  .main-container {
+    width: min(1110px, 98vw);
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin-bottom: 50px;
+
+      h1 {
+        font-size: 1.9rem;
+      }
+
+      .theme-toggler {
+        margin: 0;
+      }
+    }
+
+    hr {
+      display: none;
+    }
+  }
+
+  .social,
+  .overview {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .overview,
+  .social {
+    column-gap: 30px;
+    row-gap: 25px;
+  }
+}

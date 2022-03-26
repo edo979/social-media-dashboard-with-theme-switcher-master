@@ -37,3 +37,12 @@ $Light-Grayish-Blue: hsl(227, 47%, 96%); //(Card BG)
 $Light-Grayish-Blue-500: hsl(227, 47%, 90%); //(Card BG)
 $Dark-Grayish-Blue: hsl(228, 12%, 44%); //(Text)
 // $Very-Dark-Blue: hsl(230, 17%, 14%); // (Text)
+
+$break-point-md: 500px;
+$break-point-lg: 1024px;
+
+@mixin mq($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
