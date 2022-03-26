@@ -229,6 +229,18 @@ hr {
   background-color: #198ff5;
 }
 
+#card-twitter::before {
+  background-color: #1ca0f2;
+}
+
+#card-instagram::before {
+  background-image: linear-gradient(to left, #fdc468, #df4996);
+}
+
+#card-youtube::before {
+  background-color: #c4032a;
+}
+
 .light.main-container {
   color: #1e202a;
   background-color: white;

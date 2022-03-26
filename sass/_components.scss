@@ -65,3 +65,18 @@
     background-color: $Facebook;
   }
 }
+#card-twitter {
+  &::before {
+    background-color: $Twitter;
+  }
+}
+#card-instagram {
+  &::before {
+    background-image: $Instagram;
+  }
+}
+#card-youtube {
+  &::before {
+    background-color: $YouTube;
+  }
+}
