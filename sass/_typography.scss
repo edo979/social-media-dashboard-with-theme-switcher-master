@@ -22,8 +22,9 @@ p {
 .fs-400 {
   font-size: 1rem;
 }
-.fs-600 {
-  font-size: 1.5rem;
+.fs-600,
+.big-text-500 {
+  font-size: 2.25rem;
 }
 .fs-700,
 .big-text-600 {
@@ -34,12 +35,21 @@ p {
   font-weight: 400;
 }
 .fw-700,
-.big-text-600 {
+.big-text-600,
+.big-text-500 {
   font-weight: 700;
 }
 
 .text-neutral {
   color: $Desaturated-Blue;
+}
+
+.text-success {
+  color: $Lime-Green;
+}
+
+.text-danger {
+  color: $Bright-Red;
 }
 
 .text-uppercase {

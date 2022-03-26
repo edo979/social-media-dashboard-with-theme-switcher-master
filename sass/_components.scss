@@ -1,5 +1,8 @@
 .colored-card,
 .flex-card {
+  border-radius: 5px;
+  padding: 30px;
+
   background-color: $Dark-Desaturated-Blue;
 }
 
@@ -7,8 +10,6 @@
   position: relative;
   display: grid;
   justify-items: center;
-  padding: 30px;
-  border-radius: 5px;
 
   overflow: hidden;
 
@@ -19,15 +20,22 @@
     gap: 4px;
   }
 
-  > * + * {
-    margin-top: 1.8rem;
-  }
-
   &::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 4px;
+  }
+}
+
+.flex-card {
+  & > div:first-child {
+    margin-bottom: 40px;
+  }
+
+  .flex {
+    justify-content: space-between;
+    gap: 5px;
   }
 }
 

@@ -16,4 +16,10 @@ body {
   gap: 10px;
 }
 
+.flow {
+  > * + * {
+    margin-top: 2rem;
+  }
+}
+
 @import 'components';
