@@ -2,6 +2,13 @@ body {
   background-color: $Very-Dark-Blue-400;
 }
 
+hr {
+  margin: 2rem 0 1rem;
+
+  border: none;
+  border-top: 2px solid $Dark-Desaturated-Blue;
+}
+
 .main-container {
   padding: 25px;
 }
@@ -20,6 +27,11 @@ body {
   > * + * {
     margin-top: 2rem;
   }
+}
+
+.theme-toggler {
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 @import 'components';

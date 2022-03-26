@@ -77,6 +77,11 @@ body {
   color: white;
 }
 
+h1,
+.h1 {
+  font-size: 1.7rem;
+}
+
 p {
   line-height: 1;
 }
@@ -138,6 +143,12 @@ body {
   background-color: #1e202a;
 }
 
+hr {
+  margin: 2rem 0 1rem;
+  border: none;
+  border-top: 2px solid #252a41;
+}
+
 .main-container {
   padding: 25px;
 }
@@ -154,6 +165,30 @@ body {
 
 .flow > * + * {
   margin-top: 2rem;
+}
+
+.theme-toggler {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggler {
+  position: relative;
+  justify-self: end;
+  width: 50px;
+  height: 24px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #378fe6, #3eda82);
+}
+.toggler-ball {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #252a41;
+  cursor: pointer;
 }
 
 .colored-card,

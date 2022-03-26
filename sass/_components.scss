@@ -1,3 +1,24 @@
+.toggler {
+  position: relative;
+  justify-self: end;
+  width: 50px;
+  height: 24px;
+  border-radius: 20px;
+  background-image: $Toggle-lg;
+
+  &-ball {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+
+    background-color: $Dark-Desaturated-Blue;
+    cursor: pointer;
+  }
+}
+
 .colored-card,
 .flex-card {
   border-radius: 5px;
