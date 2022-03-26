@@ -157,6 +157,14 @@ hr {
   display: grid;
 }
 
+.social {
+  gap: 25px;
+}
+
+.overview {
+  gap: 15px;
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -170,6 +178,10 @@ hr {
 .theme-toggler {
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.margin-block {
+  margin: 3rem 0 2rem;
 }
 
 .toggler {
